@@ -1,0 +1,13 @@
+
+.grid-container {
+    display: grid;
+    column-gap: 2vw;
+    row-gap: 2vw;
+    grid-template: repeat(2, 23vw)/repeat(auto-fill, 23vw) minmax(250px, 23vw); 
+}
+img {
+    width: 23vw;
+    height: 23vw;
+    border: solid 3px rgb(107, 228, 177);
+}
+
